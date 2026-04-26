@@ -20,6 +20,7 @@ plugins/<plugin-name>/                # Individual plugin packages
 - `create-agent-tui` - Scaffold customizable TypeScript terminal UIs for OpenRouter agents.
 - `text2sql-framework` - Guidance for Text-to-SQL agents that explore schemas, verify SQL, and improve with scenarios.
 - `hyperbrowser-app-patterns` - Curated Hyperbrowser browser automation, scraping, crawl, research, and web-to-agent app patterns.
+- `gastown-agent-orchestration` - Guidance for operating Gas Town multi-agent workspaces, convoys, workers, runtime providers, and GitHub/GitLab review workflows.
 
 
 ## Categories
@@ -28,6 +29,7 @@ plugins/<plugin-name>/                # Individual plugin packages
 - Design: `design-md`
 - Data: `text2sql-framework`
 - Browser Automation: `hyperbrowser-app-patterns`
+- Multi-Agent Orchestration: `gastown-agent-orchestration`
 
 ## Codex
 

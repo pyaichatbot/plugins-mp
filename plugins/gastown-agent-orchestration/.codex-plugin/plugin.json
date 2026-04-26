@@ -1,0 +1,48 @@
+{
+  "name": "gastown-agent-orchestration",
+  "version": "1.0.0",
+  "description": "Agent guidance for operating Gas Town multi-agent orchestration across GitHub and GitLab org repositories: towns, rigs, convoys, crew, polecats, mail, nudges, and merge queues.",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "homepage": "https://github.com/gastownhall/gastown",
+  "repository": "https://github.com/pyaichatbot/plugins-mp",
+  "license": "MIT",
+  "keywords": [
+    "gastown",
+    "multi-agent",
+    "orchestration",
+    "codex",
+    "claude",
+    "copilot",
+    "beads",
+    "gitlab",
+    "merge-requests"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Gas Town Agent Orchestration",
+    "shortDescription": "Operate Gas Town multi-agent workflows across GitHub and GitLab.",
+    "longDescription": "Use Gas Town Agent Orchestration to coordinate multi-agent engineering work with towns, rigs, crew, polecats, convoys, Beads, handoffs, nudges, mail, health monitoring, merge queues, and GitHub or GitLab review workflows across Claude, Codex, Copilot, Cursor, and other runtimes.",
+    "developerName": "pyaichatbot",
+    "category": "Multi-Agent Orchestration",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/gastownhall/gastown",
+    "privacyPolicyURL": "https://github.com/pyaichatbot/plugins-mp",
+    "termsOfServiceURL": "https://github.com/pyaichatbot/plugins-mp",
+    "defaultPrompt": [
+      "Help me operate a Gas Town multi-agent workflow.",
+      "Plan a convoy and worker dispatch in Gas Town.",
+      "Review this Gas Town setup for runtime and workflow issues."
+    ],
+    "brandColor": "#7C2D12",
+    "composerIcon": "./assets/gastown-agent-orchestration-small.svg",
+    "logo": "./assets/gastown-agent-orchestration-small.svg",
+    "screenshots": []
+  }
+}

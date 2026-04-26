@@ -99,6 +99,28 @@
         "agents"
       ],
       "category": "browser-automation"
+    },
+    {
+      "name": "gastown-agent-orchestration",
+      "source": "./plugins/gastown-agent-orchestration",
+      "description": "Agent guidance for operating Gas Town multi-agent orchestration across GitHub and GitLab org repositories: towns, rigs, convoys, crew, polecats, mail, nudges, and merge queues.",
+      "version": "1.0.0",
+      "author": {
+        "name": "pyaichatbot",
+        "url": "https://github.com/pyaichatbot"
+      },
+      "keywords": [
+        "gastown",
+        "multi-agent",
+        "orchestration",
+        "codex",
+        "claude",
+        "copilot",
+        "beads",
+        "gitlab",
+        "merge-requests"
+      ],
+      "category": "multi-agent-orchestration"
     }
   ]
 }

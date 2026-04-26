@@ -1,0 +1,33 @@
+{
+  "name": "gastown-agent-orchestration",
+  "description": "Agent guidance for operating Gas Town multi-agent orchestration across GitHub and GitLab org repositories: towns, rigs, convoys, crew, polecats, mail, nudges, and merge queues.",
+  "version": "1.0.0",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "gastown",
+    "multi-agent",
+    "orchestration",
+    "codex",
+    "claude",
+    "copilot",
+    "beads",
+    "gitlab",
+    "merge-requests"
+  ],
+  "skills": [
+    "./skills/gastown-agent-orchestration",
+    "./skills/convoy",
+    "./skills/crew-commit",
+    "./skills/pr-list",
+    "./skills/ghi-list",
+    "./skills/gas-town-cursor",
+    "./skills/gitlab-org-integration",
+    "./skills/crew-commit-gitlab",
+    "./skills/mr-list",
+    "./skills/gli-list"
+  ]
+}

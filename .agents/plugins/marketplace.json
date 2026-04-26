@@ -63,6 +63,18 @@
         "authentication": "ON_INSTALL"
       },
       "category": "Browser Automation"
+    },
+    {
+      "name": "gastown-agent-orchestration",
+      "source": {
+        "source": "local",
+        "path": "./plugins/gastown-agent-orchestration"
+      },
+      "policy": {
+        "installation": "AVAILABLE",
+        "authentication": "ON_INSTALL"
+      },
+      "category": "Multi-Agent Orchestration"
     }
   ]
 }

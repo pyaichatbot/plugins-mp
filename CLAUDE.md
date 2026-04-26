@@ -46,3 +46,5 @@ When working with Text-to-SQL systems, follow the `text2sql-framework` plugin gu
 When scaffolding OpenRouter terminal agents, follow the `create-agent-tui` plugin guidance and verify TypeScript with `npx tsc --noEmit` when available.
 
 When building Hyperbrowser web automation apps, follow the `hyperbrowser-app-patterns` plugin guidance and keep API keys server-side.
+
+When operating Gas Town workflows, follow the `gastown-agent-orchestration` plugin guidance and use `gt`/`bd` commands for orchestration and task tracking. For GitLab-backed rigs, use the packaged GitLab skills and `glab` for issues, merge requests, pipelines, and self-managed host authentication.

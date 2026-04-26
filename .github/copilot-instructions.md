@@ -22,3 +22,5 @@ For Text-to-SQL work, also follow `.github/instructions/text2sql-framework.instr
 For OpenRouter terminal agent TUI work, also follow `.github/instructions/create-agent-tui.instructions.md` and prefer the packaged `create-agent-tui` plugin guidance.
 
 For Hyperbrowser browser automation apps, also follow `.github/instructions/hyperbrowser-app-patterns.instructions.md` and prefer the packaged `hyperbrowser-app-patterns` plugin guidance.
+
+For Gas Town multi-agent orchestration work, also follow `.github/instructions/gastown-agent-orchestration.instructions.md` and prefer the packaged `gastown-agent-orchestration` plugin guidance. Use `glab` instead of `gh` when the rig remote is GitLab.com or a self-managed GitLab org instance.
