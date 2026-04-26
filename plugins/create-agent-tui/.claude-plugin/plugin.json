@@ -1,0 +1,20 @@
+{
+  "name": "create-agent-tui",
+  "description": "Scaffold customizable TypeScript terminal UIs for OpenRouter agents using @openrouter/agent.",
+  "version": "1.0.0",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "license": "NOASSERTION",
+  "keywords": [
+    "openrouter",
+    "agent-tui",
+    "terminal-ui",
+    "typescript",
+    "agent-scaffold"
+  ],
+  "skills": [
+    "./skills/create-agent-tui"
+  ]
+}

@@ -1,0 +1,44 @@
+{
+  "name": "hyperbrowser-app-patterns",
+  "version": "1.0.0",
+  "description": "Curated agent guidance for building web automation and scraping apps from Hyperbrowser example patterns.",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "homepage": "https://github.com/hyperbrowserai/hyperbrowser-app-examples",
+  "repository": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+  "license": "NOASSERTION",
+  "keywords": [
+    "hyperbrowser",
+    "browser-automation",
+    "web-scraping",
+    "nextjs",
+    "agents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Hyperbrowser App Patterns",
+    "shortDescription": "Build browser automation apps using curated Hyperbrowser example patterns.",
+    "longDescription": "Use Hyperbrowser App Patterns to build web automation, scraping, crawl, research, screenshot, competitor tracking, site-to-dataset, and web-to-agent applications from curated patterns in hyperbrowserai/hyperbrowser-app-examples.",
+    "developerName": "pyaichatbot",
+    "category": "Browser Automation",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Review"
+    ],
+    "websiteURL": "https://github.com/hyperbrowserai/hyperbrowser-app-examples",
+    "privacyPolicyURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "termsOfServiceURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "defaultPrompt": [
+      "Build a Hyperbrowser web automation app.",
+      "Design a crawl and extraction workflow with Hyperbrowser.",
+      "Review this Hyperbrowser integration for reliability."
+    ],
+    "brandColor": "#111827",
+    "composerIcon": "./assets/hyperbrowser-app-patterns-small.svg",
+    "logo": "./assets/hyperbrowser-app-patterns-small.svg",
+    "screenshots": []
+  }
+}

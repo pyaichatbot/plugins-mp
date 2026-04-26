@@ -1,0 +1,10 @@
+# OS metadata
+.DS_Store
+
+# Logs
+*.log
+
+# Local dependency/cache folders
+node_modules/
+.venv/
+.env

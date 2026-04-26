@@ -1,0 +1,44 @@
+{
+  "name": "design-md",
+  "version": "1.0.0",
+  "description": "Agent guidance for creating, validating, and applying DESIGN.md visual identity specifications.",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "homepage": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+  "repository": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+  "license": "Apache-2.0",
+  "keywords": [
+    "design-md",
+    "design-system",
+    "design-tokens",
+    "frontend",
+    "agent-guidance"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "DESIGN.md",
+    "shortDescription": "Create and apply structured visual identity specs for coding agents.",
+    "longDescription": "Use DESIGN.md to describe visual identity with YAML design tokens and Markdown rationale, validate specs with @google/design.md, and apply consistent design systems across generated interfaces.",
+    "developerName": "pyaichatbot",
+    "category": "Design",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Review"
+    ],
+    "websiteURL": "https://github.com/google-labs-code/design.md",
+    "privacyPolicyURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "termsOfServiceURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "defaultPrompt": [
+      "Create a DESIGN.md for this product interface.",
+      "Review this DESIGN.md for token and prose issues.",
+      "Apply this DESIGN.md while building the UI."
+    ],
+    "brandColor": "#0F172A",
+    "composerIcon": "./assets/design-md-small.svg",
+    "logo": "./assets/design-md-small.svg",
+    "screenshots": []
+  }
+}

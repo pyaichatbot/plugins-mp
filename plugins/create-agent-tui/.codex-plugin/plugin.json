@@ -1,0 +1,44 @@
+{
+  "name": "create-agent-tui",
+  "version": "1.0.0",
+  "description": "Scaffold customizable TypeScript terminal UIs for OpenRouter agents using @openrouter/agent.",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "homepage": "https://github.com/OpenRouterTeam/skills/tree/main/skills/create-agent-tui",
+  "repository": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+  "license": "NOASSERTION",
+  "keywords": [
+    "openrouter",
+    "agent-tui",
+    "terminal-ui",
+    "typescript",
+    "agent-scaffold"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Create Agent TUI",
+    "shortDescription": "Scaffold TypeScript terminal interfaces for OpenRouter agents.",
+    "longDescription": "Use Create Agent TUI to generate a complete @openrouter/agent terminal harness with input styles, tool display modes, loaders, session persistence, slash commands, configurable tools, and optional server entry points.",
+    "developerName": "pyaichatbot",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Interactive"
+    ],
+    "websiteURL": "https://github.com/OpenRouterTeam/skills/tree/main/skills/create-agent-tui",
+    "privacyPolicyURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "termsOfServiceURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "defaultPrompt": [
+      "Scaffold a TypeScript agent TUI with OpenRouter.",
+      "Add tools to this OpenRouter agent harness.",
+      "Customize the terminal UI for this agent."
+    ],
+    "brandColor": "#5B21B6",
+    "composerIcon": "./assets/create-agent-tui-small.svg",
+    "logo": "./assets/create-agent-tui-small.svg",
+    "screenshots": []
+  }
+}

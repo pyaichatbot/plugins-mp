@@ -1,0 +1,21 @@
+{
+  "name": "text2sql-framework",
+  "description": "Agent guidance for building and using Text2SQL systems with tool-based schema exploration and scenario feedback loops.",
+  "version": "0.2.0",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "text2sql",
+    "sql",
+    "database",
+    "agents",
+    "llm",
+    "deep-agents"
+  ],
+  "skills": [
+    "./skills/text2sql-framework"
+  ]
+}

@@ -1,0 +1,20 @@
+{
+  "name": "andrej-karpathy-skills",
+  "description": "Behavioral guidelines to reduce common LLM coding mistakes, inspired by Andrej Karpathy's observations on LLM coding pitfalls.",
+  "version": "1.0.0",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "license": "MIT",
+  "keywords": [
+    "guidelines",
+    "best-practices",
+    "coding",
+    "karpathy",
+    "llm-coding"
+  ],
+  "skills": [
+    "./skills/karpathy-guidelines"
+  ]
+}

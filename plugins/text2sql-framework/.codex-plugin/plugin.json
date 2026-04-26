@@ -1,0 +1,45 @@
+{
+  "name": "text2sql-framework",
+  "version": "0.2.0",
+  "description": "Agent guidance for building and using Text2SQL systems with tool-based schema exploration and scenario feedback loops.",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "homepage": "https://github.com/Text2SqlAgent/text2sql-framework",
+  "repository": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+  "license": "MIT",
+  "keywords": [
+    "text2sql",
+    "sql",
+    "database",
+    "agents",
+    "llm",
+    "deep-agents"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Text2SQL Framework",
+    "shortDescription": "Build Text-to-SQL agents that explore schemas, test SQL, and improve with scenarios.",
+    "longDescription": "Use Text2SQL Framework guidance to connect LLM agents to SQLAlchemy databases, let them explore schema with execute_sql, self-correct queries, record traces, and maintain scenarios.md feedback loops.",
+    "developerName": "pyaichatbot",
+    "category": "Data",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Review"
+    ],
+    "websiteURL": "https://github.com/Text2SqlAgent/text2sql-framework",
+    "privacyPolicyURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "termsOfServiceURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "defaultPrompt": [
+      "Use Text2SQL Framework guidance for this database agent.",
+      "Design a scenarios.md feedback loop for this schema.",
+      "Review this text-to-SQL workflow for safety and correctness."
+    ],
+    "brandColor": "#0B3B2E",
+    "composerIcon": "./assets/text2sql-framework-small.svg",
+    "logo": "./assets/text2sql-framework-small.svg",
+    "screenshots": []
+  }
+}

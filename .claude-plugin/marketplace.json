@@ -1,0 +1,104 @@
+{
+  "name": "spytrix-ai",
+  "id": "spytrix-ai",
+  "owner": {
+    "name": "pyaichatbot"
+  },
+  "metadata": {
+    "description": "Spytrix AI plugin marketplace for Claude and Codex compatible coding-agent skills.",
+    "version": "1.0.0"
+  },
+  "plugins": [
+    {
+      "name": "andrej-karpathy-skills",
+      "source": "./plugins/andrej-karpathy-skills",
+      "description": "Behavioral guidelines to reduce common LLM coding mistakes: Think Before Coding, Simplicity First, Surgical Changes, Goal-Driven Execution.",
+      "version": "1.0.0",
+      "author": {
+        "name": "pyaichatbot",
+        "url": "https://github.com/pyaichatbot"
+      },
+      "keywords": [
+        "guidelines",
+        "best-practices",
+        "coding",
+        "karpathy",
+        "llm-coding"
+      ],
+      "category": "workflow"
+    },
+    {
+      "name": "design-md",
+      "source": "./plugins/design-md",
+      "description": "Agent guidance for creating, validating, and applying DESIGN.md visual identity specifications.",
+      "version": "1.0.0",
+      "author": {
+        "name": "pyaichatbot",
+        "url": "https://github.com/pyaichatbot"
+      },
+      "keywords": [
+        "design-md",
+        "design-system",
+        "design-tokens",
+        "frontend",
+        "agent-guidance"
+      ],
+      "category": "design"
+    },
+    {
+      "name": "text2sql-framework",
+      "source": "./plugins/text2sql-framework",
+      "description": "Agent guidance for building and using Text2SQL systems with tool-based schema exploration and scenario feedback loops.",
+      "version": "0.2.0",
+      "author": {
+        "name": "pyaichatbot",
+        "url": "https://github.com/pyaichatbot"
+      },
+      "keywords": [
+        "text2sql",
+        "sql",
+        "database",
+        "agents",
+        "llm",
+        "deep-agents"
+      ],
+      "category": "data"
+    },
+    {
+      "name": "create-agent-tui",
+      "source": "./plugins/create-agent-tui",
+      "description": "Scaffold customizable TypeScript terminal UIs for OpenRouter agents using @openrouter/agent.",
+      "version": "1.0.0",
+      "author": {
+        "name": "pyaichatbot",
+        "url": "https://github.com/pyaichatbot"
+      },
+      "keywords": [
+        "openrouter",
+        "agent-tui",
+        "terminal-ui",
+        "typescript",
+        "agent-scaffold"
+      ],
+      "category": "coding"
+    },
+    {
+      "name": "hyperbrowser-app-patterns",
+      "source": "./plugins/hyperbrowser-app-patterns",
+      "description": "Curated agent guidance for building web automation and scraping apps from Hyperbrowser example patterns.",
+      "version": "1.0.0",
+      "author": {
+        "name": "pyaichatbot",
+        "url": "https://github.com/pyaichatbot"
+      },
+      "keywords": [
+        "hyperbrowser",
+        "browser-automation",
+        "web-scraping",
+        "nextjs",
+        "agents"
+      ],
+      "category": "browser-automation"
+    }
+  ]
+}

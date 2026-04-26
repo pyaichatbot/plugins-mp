@@ -1,0 +1,24 @@
+{
+  "name": "design-md",
+  "description": "Agent guidance for creating, validating, and applying DESIGN.md visual identity specifications.",
+  "version": "1.0.0",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "license": "Apache-2.0",
+  "keywords": [
+    "design-md",
+    "design-system",
+    "design-tokens",
+    "frontend",
+    "agent-guidance"
+  ],
+  "skills": [
+    "./skills/design-md",
+    "./skills/agent-dx-cli-scale",
+    "./skills/ink",
+    "./skills/tdd",
+    "./skills/typed-service-contracts"
+  ]
+}

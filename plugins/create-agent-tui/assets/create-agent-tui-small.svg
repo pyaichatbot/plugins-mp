@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Create Agent TUI">
+  <rect width="64" height="64" rx="14" fill="#5b21b6"/>
+  <path d="M14 18h36v28H14V18Zm4 6v18h28V24H18Z" fill="#ede9fe"/>
+  <path d="M23 31 18 27l5-4v4h8v4h-8Zm18 2 5 4-5 4v-4h-8v-4h8Z" fill="#38bdf8"/>
+</svg>

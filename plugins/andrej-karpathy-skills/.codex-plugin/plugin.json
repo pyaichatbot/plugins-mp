@@ -1,0 +1,44 @@
+{
+  "name": "andrej-karpathy-skills",
+  "version": "1.0.0",
+  "description": "Behavioral coding guidelines inspired by Andrej Karpathy's observations on common LLM coding pitfalls.",
+  "author": {
+    "name": "pyaichatbot",
+    "url": "https://github.com/pyaichatbot"
+  },
+  "homepage": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+  "repository": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+  "license": "MIT",
+  "keywords": [
+    "guidelines",
+    "best-practices",
+    "coding",
+    "karpathy",
+    "llm-coding"
+  ],
+  "skills": "./skills/",
+  "interface": {
+    "displayName": "Karpathy Guidelines",
+    "shortDescription": "Coding-agent guidelines for simpler, more deliberate code changes.",
+    "longDescription": "Use Karpathy Guidelines to reduce common LLM coding mistakes: surface assumptions, prefer simple solutions, keep edits surgical, and define verifiable success criteria before implementation.",
+    "developerName": "pyaichatbot",
+    "category": "Coding",
+    "capabilities": [
+      "Read",
+      "Write",
+      "Review"
+    ],
+    "websiteURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "privacyPolicyURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "termsOfServiceURL": "https://github.com/pyaichatbot/spytrix-plugins-mp",
+    "defaultPrompt": [
+      "Use Karpathy Guidelines while implementing this change.",
+      "Review this diff for overcomplication and unrelated edits.",
+      "Turn this task into verifiable success criteria."
+    ],
+    "brandColor": "#111111",
+    "composerIcon": "./assets/karpathy-guidelines-small.svg",
+    "logo": "./assets/karpathy-guidelines-small.svg",
+    "screenshots": []
+  }
+}

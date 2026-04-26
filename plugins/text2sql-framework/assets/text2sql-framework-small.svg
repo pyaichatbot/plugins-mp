@@ -1,0 +1,6 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="64" height="64" viewBox="0 0 64 64" role="img" aria-label="Text2SQL Framework">
+  <rect width="64" height="64" rx="14" fill="#0b3b2e"/>
+  <path d="M14 18h36v8H14v-8Zm0 11h36v8H14v-8Zm0 11h36v8H14v-8Z" fill="#d1fae5"/>
+  <path d="M21 20v26M32 20v26M43 20v26" stroke="#0b3b2e" stroke-width="3"/>
+  <path d="M50 52 38 40l4-4 12 12-4 4Z" fill="#38bdf8"/>
+</svg>
